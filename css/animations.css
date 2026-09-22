@@ -1,0 +1,728 @@
+/* =========================================================
+   LALAN KUMAR PORTFOLIO
+   ANIMATIONS
+========================================================= */
+
+
+/* =========================================================
+   1. FADE IN
+========================================================= */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+
+/* =========================================================
+   2. FADE UP
+========================================================= */
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(30px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+
+/* =========================================================
+   3. FADE DOWN
+========================================================= */
+
+@keyframes fadeDown {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(-20px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+
+/* =========================================================
+   4. FADE LEFT
+========================================================= */
+
+@keyframes fadeLeft {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateX(-40px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateX(0);
+
+    }
+
+}
+
+
+/* =========================================================
+   5. FADE RIGHT
+========================================================= */
+
+@keyframes fadeRight {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateX(40px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateX(0);
+
+    }
+
+}
+
+
+/* =========================================================
+   6. SCALE IN
+========================================================= */
+
+@keyframes scaleIn {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            scale(0.85);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            scale(1);
+
+    }
+
+}
+
+
+/* =========================================================
+   7. PROFILE FLOAT
+========================================================= */
+
+@keyframes profileFloat {
+
+    0%,
+    100% {
+
+        transform:
+            translateY(0);
+
+    }
+
+    50% {
+
+        transform:
+            translateY(-12px);
+
+    }
+
+}
+
+
+/* =========================================================
+   8. ELECTRIC GLOW
+========================================================= */
+
+@keyframes electricGlow {
+
+    0% {
+
+        box-shadow:
+            0 0 15px
+            rgba(0, 168, 255, 0.15);
+
+    }
+
+    50% {
+
+        box-shadow:
+            0 0 35px
+            rgba(0, 168, 255, 0.35);
+
+    }
+
+    100% {
+
+        box-shadow:
+            0 0 15px
+            rgba(0, 168, 255, 0.15);
+
+    }
+
+}
+
+
+/* =========================================================
+   9. ROTATE
+========================================================= */
+
+@keyframes rotate {
+
+    from {
+
+        transform:
+            rotate(0deg);
+
+    }
+
+    to {
+
+        transform:
+            rotate(360deg);
+
+    }
+
+}
+
+
+/* =========================================================
+   10. HERO ANIMATIONS
+========================================================= */
+
+.hero-greeting {
+
+    animation:
+        fadeDown
+        0.7s
+        ease
+        both;
+
+}
+
+
+.hero-content h1 {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.1s
+        both;
+
+}
+
+
+.hero-content h2 {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.2s
+        both;
+
+}
+
+
+.hero-description {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.3s
+        both;
+
+}
+
+
+.hero-buttons {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.4s
+        both;
+
+}
+
+
+.hero-social {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.5s
+        both;
+
+}
+
+
+.hero-image {
+
+    animation:
+        fadeRight
+        1s
+        ease
+        0.2s
+        both;
+
+}
+
+
+.profile-glow {
+
+    animation:
+        profileFloat
+        5s
+        ease-in-out
+        infinite;
+
+}
+
+
+/* =========================================================
+   11. SKILL CARD ANIMATION
+========================================================= */
+
+.skill-card {
+
+    animation:
+        fadeUp
+        0.7s
+        ease
+        both;
+
+}
+
+
+.skill-card:nth-child(1) {
+    animation-delay:
+        0.1s;
+}
+
+
+.skill-card:nth-child(2) {
+    animation-delay:
+        0.2s;
+}
+
+
+.skill-card:nth-child(3) {
+    animation-delay:
+        0.3s;
+}
+
+
+.skill-card:nth-child(4) {
+    animation-delay:
+        0.4s;
+}
+
+
+.skill-card:nth-child(5) {
+    animation-delay:
+        0.5s;
+}
+
+
+.skill-card:nth-child(6) {
+    animation-delay:
+        0.6s;
+}
+
+
+/* =========================================================
+   12. PROJECT CARD ANIMATION
+========================================================= */
+
+.project-card {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        both;
+
+}
+
+
+.project-card:nth-child(1) {
+
+    animation-delay:
+        0.15s;
+
+}
+
+
+.project-card:nth-child(2) {
+
+    animation-delay:
+        0.3s;
+
+}
+
+
+/* =========================================================
+   13. CERTIFICATE ANIMATION
+========================================================= */
+
+.certificate-card {
+
+    animation:
+        scaleIn
+        0.7s
+        ease
+        both;
+
+}
+
+
+.certificate-card:hover {
+
+    transform:
+        translateY(-8px)
+        scale(1.01);
+
+}
+
+
+/* =========================================================
+   14. SOCIAL ICON HOVER
+========================================================= */
+
+.hero-social a,
+.footer-social a {
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+.hero-social a:hover,
+.footer-social a:hover {
+
+    transform:
+        translateY(-4px)
+        scale(1.05);
+
+}
+
+
+/* =========================================================
+   15. BUTTON HOVER
+========================================================= */
+
+.btn {
+
+    position:
+        relative;
+
+    overflow:
+        hidden;
+
+}
+
+
+.btn::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    top:
+        0;
+
+    left:
+        -100%;
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255,255,255,0.18),
+            transparent
+        );
+
+    transition:
+        left 0.5s ease;
+
+}
+
+
+.btn:hover::before {
+
+    left:
+        100%;
+
+}
+
+
+/* =========================================================
+   16. NAVIGATION HOVER
+========================================================= */
+
+.nav-links a {
+
+    position:
+        relative;
+
+}
+
+
+.nav-links a::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    bottom:
+        -7px;
+
+    left:
+        0;
+
+    width:
+        0;
+
+    height:
+        2px;
+
+    background:
+        var(--primary);
+
+    transition:
+        width 0.3s ease;
+
+}
+
+
+.nav-links a:hover::after {
+
+    width:
+        100%;
+
+}
+
+
+/* =========================================================
+   17. IMAGE HOVER
+========================================================= */
+
+.about-image img,
+.project-image img {
+
+    transition:
+        transform 0.5s ease;
+
+}
+
+
+.about-image:hover img {
+
+    transform:
+        scale(1.03);
+
+}
+
+
+/* =========================================================
+   18. INPUT FOCUS
+========================================================= */
+
+.contact-form input,
+.contact-form textarea {
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+
+    transform:
+        translateY(-2px);
+
+}
+
+
+/* =========================================================
+   19. LOGO HOVER
+========================================================= */
+
+.logo img {
+
+    transition:
+        transform 0.4s ease;
+
+}
+
+
+.logo:hover img {
+
+    transform:
+        rotate(-8deg)
+        scale(1.08);
+
+}
+
+
+/* =========================================================
+   20. SECTION HEADING
+========================================================= */
+
+.section-heading p {
+
+    animation:
+        fadeDown
+        0.7s
+        ease
+        both;
+
+}
+
+
+.section-heading h2 {
+
+    animation:
+        fadeUp
+        0.8s
+        ease
+        0.1s
+        both;
+
+}
+
+
+/* =========================================================
+   21. ELECTRICAL GLOW
+========================================================= */
+
+.electric-glow {
+
+    animation:
+        electricGlow
+        3s
+        ease-in-out
+        infinite;
+
+}
+
+
+/* =========================================================
+   22. LOADING ANIMATION
+========================================================= */
+
+@keyframes loading {
+
+    0% {
+
+        transform:
+            translateX(-100%);
+
+    }
+
+    100% {
+
+        transform:
+            translateX(100%);
+
+    }
+
+}
+
+
+/* =========================================================
+   23. REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation:
+            none !important;
+
+        transition:
+            none !important;
+
+    }
+
+}
+
+
+/* =========================================================
+   END
+========================================================= */
