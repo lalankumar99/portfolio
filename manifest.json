@@ -1,0 +1,19 @@
+{
+    "name": "Lalan Kumar | Electrical Engineering Portfolio",
+    "short_name": "Lalan Kumar",
+    "description": "Personal portfolio of Lalan Kumar, a Diploma Electrical Engineering student.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050b14",
+    "theme_color": "#050b14",
+    "orientation": "portrait-primary",
+
+    "icons": [
+        {
+            "src": "/assets/images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
